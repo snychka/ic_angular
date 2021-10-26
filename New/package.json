@@ -1,0 +1,40 @@
+{
+  "name": "ngif",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve --host 0.0.0.0 --disable-host-check",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "one": "mocha -g 'f_valid_html'",
+    "two": "mocha -g 'f_selector'",
+    "three": "mocha -g 'f_template'",
+    "four": "mocha -g 'f_h1_reference'"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/common": "~12.1.0",
+    "@angular/compiler": "~12.1.0",
+    "@angular/core": "~12.1.0",
+    "@angular/platform-browser": "~12.1.0",
+    "@angular/platform-browser-dynamic": "~12.1.0",
+    "@angular/router": "~12.1.0",
+    "chai": "^4.3.4",
+    "mocha": "^9.1.1",
+    "node-html-parser": "^4.1.4",
+    "rxjs": "~6.6.0",
+    "ts-morph": "^12.0.0",
+    "ts-node": "^10.2.1",
+    "tslib": "^2.2.0",
+    "zone.js": "~0.11.4"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "~12.1.4",
+    "@angular/cli": "~12.1.4",
+    "@angular/compiler-cli": "~12.1.0",
+    "@types/mocha": "^9.0.0",
+    "@types/node": "^12.11.1",
+    "typescript": "~4.3.2"
+  }
+}
+
